@@ -1,5 +1,6 @@
 package de.roboticbrain.marmor;
 
+import net.minecraft.creativetab.CreativeTabs;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Init;
 import cpw.mods.fml.common.Mod.Instance;
@@ -9,6 +10,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
+import de.roboticbrain.creativetab.MarmorCreativeTab;
 import de.roboticbrain.marmor.core.helper.LogHelper;
 
 /**
@@ -29,6 +31,8 @@ import de.roboticbrain.marmor.core.helper.LogHelper;
 public class ModularArmorMod {
     @Instance(Constants.MODID)
     public static ModularArmorMod instance;
+    
+    public static CreativeTabs creativeTab = new MarmorCreativeTab(CreativeTabs.getNextID(), Constants.MODID);
     
     @PreInit
     public void preInit(FMLPreInitializationEvent event) {
