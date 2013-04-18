@@ -11,5 +11,5 @@ package de.roboticbrain.marmor.lib;
  *
  */
 public class Strings {
-    public static final String MODULAR_HELMET_NAME = "item.ModularHelmet";
+    public static final String MODULAR_HELMET_NAME = "ModularHelmet";
 }
