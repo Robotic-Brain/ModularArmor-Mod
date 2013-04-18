@@ -12,6 +12,8 @@ import cpw.mods.fml.common.network.NetworkMod;
 import de.roboticbrain.marmor.core.helper.LogHelper;
 
 /**
+ * Modular Armor Mod
+ * 
  * Modular Armor Mod Entry Point
  * 
  * @author Robotic-Brain

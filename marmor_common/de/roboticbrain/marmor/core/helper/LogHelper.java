@@ -7,6 +7,8 @@ import cpw.mods.fml.common.FMLLog;
 import de.roboticbrain.marmor.Constants;
 
 /**
+ * Modular Armor Mod
+ * 
  * Modified version of EE3 LogHelper Class
  * 
  * @author Robotic-Brain

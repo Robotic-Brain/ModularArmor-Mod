@@ -1,6 +1,8 @@
 package de.roboticbrain.marmor;
 
 /**
+ * Modular Armor Mod
+ * 
  * Modular Armor Constants
  * 
  * @author Robotic-Brain
