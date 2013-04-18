@@ -10,8 +10,8 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
-import de.roboticbrain.creativetab.MarmorCreativeTab;
 import de.roboticbrain.marmor.core.helper.LogHelper;
+import de.roboticbrain.marmor.creativetab.MarmorCreativeTab;
 
 /**
  * Modular Armor Mod

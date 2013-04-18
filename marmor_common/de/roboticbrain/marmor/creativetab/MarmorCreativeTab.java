@@ -1,4 +1,4 @@
-package de.roboticbrain.creativetab;
+package de.roboticbrain.marmor.creativetab;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
