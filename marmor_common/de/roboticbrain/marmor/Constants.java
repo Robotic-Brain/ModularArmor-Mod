@@ -10,8 +10,8 @@ package de.roboticbrain.marmor;
  *
  */
 public class Constants {
-    public static final String MODID = "ModularArmorMod";
+    public static final String MOD_ID = "ModularArmorMod";
     public static final String VERSION_STRING = "0.0.1";
     
-    public static final String CHANNEL_NAME = MODID;
+    public static final String CHANNEL_NAME = MOD_ID;
 }

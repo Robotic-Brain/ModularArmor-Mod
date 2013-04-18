@@ -22,17 +22,17 @@ import de.roboticbrain.marmor.core.helper.LogHelper;
  * @license GNU Public License v3 (http://www.gnu.org/licenses/)
  *
  */
-@Mod(modid = Constants.MODID, version = Constants.VERSION_STRING)
+@Mod(modid = Constants.MOD_ID, version = Constants.VERSION_STRING)
 /*@NetworkMod(
             channels = { Constants.CHANNEL_NAME },
             clientSideRequired = true,
             serverSideRequired = false
         )*/
 public class ModularArmorMod {
-    @Instance(Constants.MODID)
+    @Instance(Constants.MOD_ID)
     public static ModularArmorMod instance;
     
-    public static CreativeTabs creativeTab = new MarmorCreativeTab(CreativeTabs.getNextID(), Constants.MODID);
+    public static CreativeTabs creativeTab = new MarmorCreativeTab(CreativeTabs.getNextID(), Constants.MOD_ID);
     
     @PreInit
     public void preInit(FMLPreInitializationEvent event) {

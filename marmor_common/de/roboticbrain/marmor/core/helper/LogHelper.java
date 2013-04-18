@@ -25,7 +25,7 @@ import de.roboticbrain.marmor.Constants;
  */
 public class LogHelper {
 
-    private static Logger marmorLogger = Logger.getLogger(Constants.MODID);
+    private static Logger marmorLogger = Logger.getLogger(Constants.MOD_ID);
 
     public static void init() {
 
